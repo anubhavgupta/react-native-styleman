@@ -36,12 +36,6 @@ const config = {
       'amd': 'react',
       'root': 'React'
     },
-    'React': {
-      'commonjs': 'react',
-      'commonjs2': 'react',
-      'amd': 'react',
-      'root': 'React'
-    },
     'react-native': 'react-native'
   },
   module: {

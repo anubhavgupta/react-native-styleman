@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import RN from 'react-native';
 import { memo } from './Memo';
 import { processStyles, provideValueProcessors } from './Utils';
