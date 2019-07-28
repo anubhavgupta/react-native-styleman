@@ -1,6 +1,6 @@
 {
   "name": "react-native-styleman",
-  "version": "0.4.2",
+  "version": "0.4.4",
   "description": "Responsive styling library for react native",
   "main": "./lib/index.js",
   "unpkg": "dist/react-native-styleman.js",
