@@ -1,10 +1,17 @@
 {
   "name": "react-native-styleman",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "description": "Responsive styling library for react native",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
+  "unpkg": "dist/react-native-styleman.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
+  "files": [
+   "dist",
+   "lib",
+   "src",
+   "es"
+  ],
   "scripts": {
     "clean": "rimraf lib dist es",
     "build": "npm run build:commonjs && npm run build:es && npm run build:umd && npm run build:umd:min",
@@ -12,7 +19,7 @@
     "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
     "build:umd": "cross-env BABEL_ENV=commonjs NODE_ENV=development webpack --env dev",
     "build:umd:min": "cross-env BABEL_ENV=commonjs NODE_ENV=production webpack --env build",
-    "prepublish": "npm run clean && npm run build"
+    "prepare": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
@@ -39,7 +46,7 @@
     "automatic",
     "library"
   ],
-  "author": "Anubhav Gupta",
+  "author": "Anubhav Gupta <anubhav200@gmail.com> (https://github.com/anubhavgupta)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/anubhavgupta/react-native-styleman/issues"
