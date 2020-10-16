@@ -4,12 +4,12 @@
 React Native Styleman is a tiny(3KB gzipped), high performance `responsive` styling library for react native. 
 
 It provides following features:
-
-- Static and dynamic theming with support for global theme variables.
 - Media Queries with support for -> [width, height, orientation, direction, platform, platformVersion] 
-- Responsive units to automatically scale the UI based on the device's screen size.
 - Dynamic styling based on device's orientation.
-- Highly Extendable: Add your own custom css properties and values. 
+- Static and dynamic theming with support for global theme variables.
+- Responsive units to automatically scale the UI based on the device's screen size.
+
+- Highly Extensible: Add your own custom css properties and values. 
 
 
 ## Installation
